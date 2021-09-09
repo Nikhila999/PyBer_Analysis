@@ -7,17 +7,21 @@ The purpose of this analysis is to help PyBer improve the access to ride-sharing
 ## Results
 
 The ride-sharing summary dataframe has three city types, Urban, Suburban and Rural. Now, lets take a close look at the details.
-    - Total Rides: Urban area has more number of rides (1,625) compared to suburban (625) and rural (125). Total number of rides in rural area is 13 times less than in urban area.
-    - Total Drivers: Similar to total rides metric, total number of drivers in uarban area are 2,405 that is atleast 30 times more than total number of drivers in rural areas (78). Suburban has 490 drivers.
-    - Total Fares: Total fares in urban ($39,854.38) is way more than suburban ($19,356.33) and rural areas ($4,327.93) consistent with the total rides and total drivers metrics.
-    - Average Fare per Ride: The average fare per ride is slighly more in rural areas ($34.62) compared to the urban ($24.53). Suburban average fare is half way between urban and rural at $30.97.
-    - Average Fare per Driver: The drivers in rural area makes more money on a ride ($55.49) than in suburban ($39.50) or urban ($16.57). Because there are many drivers in urban area, eventhough total rides are high the average fare per driver is very low. Drivers make 3.5 time less in urban city type.
+   - Total Rides: Urban area has more number of rides (1,625) compared to suburban (625) and rural (125). Total number of rides in rural area is 13 times less than in urban area.
+    
+   - Total Drivers: Similar to total rides metric, total number of drivers in uarban area are 2,405 that is atleast 30 times more than total number of drivers in rural areas (78). Suburban has 490 drivers.
+    
+   - Total Fares: Total fares in urban ($39,854.38) is way more than suburban ($19,356.33) and rural areas ($4,327.93) consistent with the total rides and total drivers metrics.
+    
+   - Average Fare per Ride: The average fare per ride is slighly more in rural areas ($34.62) compared to the urban ($24.53). Suburban average fare is half way between urban and rural at $30.97.
+    
+   - Average Fare per Driver: The drivers in rural area makes more money on a ride ($55.49) than in suburban ($39.50) or urban ($16.57). Because there are many drivers in urban area, eventhough total rides are high the average fare per driver is very low. Drivers make 3.5 time less in urban city type.
 
--- add the image here
+![](https://github.com/Nikhila999/PyBer_Analysis/blob/main/analysis/citytype_summary.png)
 
 In the line graph, we are representing the total fare per week for the first four months on year 2019. The average fare per week for rural city type oscillates between 0 and $500 and for suburban the average weekly fare is between higher $600 to little under $1,500. The Urban area has the average fare per week start at around $1600 and going up to $2500, Feb.
 
--- image of line graph
+![](https://github.com/Nikhila999/PyBer_Analysis/blob/main/analysis/PyBer_fare_summary.png)
 
 ## Summary
 
